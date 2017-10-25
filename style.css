@@ -46,7 +46,7 @@ a:hover{
 }
 
 .container{
-  margin: 20px 20px;
+  margin: 20px 20px 20px 120px;
 }
 
 .card{
@@ -75,5 +75,29 @@ a:hover{
 }
 
 #profile-image{
-  align-self: center
+  align-self: center;
+}
+
+#sidebar{
+  background-color: #1B2A41;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 110px;
+}
+
+#sidebar a{
+  text-decoration: none;
+  font-size: 30px;
+  color: ;
+}
+
+#sidebar ul{
+  list-style: none;
+}
+
+#sidebar li{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
