@@ -1,0 +1,79 @@
+body{
+  background-color: #485661;
+  font-family: 'Open Sans', sans-serif;
+  color: #DADDD8;
+  font-size: 15px;
+  line-height: 1.4em;
+}
+
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #DADDD8;
+}
+
+h1{
+  font-size: 24px;
+  line-height: 18px;
+}
+h2{
+  font-size: 20px;
+  line-height: 14px;
+  font-weight: 550;
+}
+h3{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 12px;
+}
+
+p{
+  text-align: left;
+}
+
+a{
+  color: #707C88;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #A0B1C2;
+  text-decoration: none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.container{
+  margin: 20px 20px;
+}
+
+.card{
+  background-color: #364652;
+  padding: 10px 15px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  border: 3px solid #3B4750;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline{
+  padding-left: 0px;
+}
+
+.team-image{
+  padding-right: 10px;
+}
+
+#profile-image{
+  align-self: center
+}
